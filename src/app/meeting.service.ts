@@ -8,8 +8,8 @@ import { map } from 'rxjs/operators';
     providedIn: 'root'
 })
 export class MeetingService {
-    // private baseUrl = 'http://api.themeetingplanner.xyz/api/v1/meetings';
-    private baseUrl = 'http://localhost:3000/api/v1/meetings';
+    private baseUrl = 'http://api.themeetingplanner.xyz/api/v1/meetings';
+    //private baseUrl = 'http://localhost:3000/api/v1/meetings';
     constructor(private http: HttpClient) { }
 
     public getAllUsers(): Observable<any> {
