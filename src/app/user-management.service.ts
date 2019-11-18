@@ -9,8 +9,8 @@ import { Observable, throwError } from 'rxjs';
 })
 
 export class UserManagementService {
-    // private baseUrl = 'http://api.themeetingplanner.xyz/api/v1/users';
-    private baseUrl = 'http://localhost:3000/api/v1/users';
+    private baseUrl = 'http://api.themeetingplanner.xyz/api/v1/users';
+    //private baseUrl = 'http://localhost:3000/api/v1/users';
     constructor(public http: HttpClient) { }
 
 
