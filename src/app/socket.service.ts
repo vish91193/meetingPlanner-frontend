@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
 })
 
 export class SocketService {
-    // private url = "http://api.themeetingplanner.xyz";
-    private url = 'http://localhost:3000';
+    private url = "http://api.themeetingplanner.xyz";
+    //private url = 'http://localhost:3000';
     private socket;
     constructor() {
         this.socket = io(this.url)
