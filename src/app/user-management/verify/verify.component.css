@@ -1,0 +1,41 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+    font-size: 16px;
+  }
+  
+  .container-fluid {
+    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+  .app-logo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }  
+ 
+
+  .img{
+    /* background:url("/src/assets/images/bugMainImg.png") no-repeat center center; */
+    max-width: 100%;
+    height: 12vh;
+    
+  }
+  
+  .card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  
+  .card-signin .card-body {
+    padding: 2rem;
+  }
